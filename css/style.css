@@ -274,6 +274,15 @@ button {
     background: url('../imgs/trailerbg.jpg');
 }
 
+.trailer-button {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.trailer-button:hover {
+    transform: scale(1.1);
+    filter: contrast(1.2);
+}
+
 .div-button {
     display: flex;
     padding: 330px 590px;
